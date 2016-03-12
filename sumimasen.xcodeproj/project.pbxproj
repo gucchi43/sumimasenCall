@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDCF73EB1C947B1E004F2C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF73EA1C947B1E004F2C4F /* AppDelegate.swift */; };
+		EDCF73ED1C947B1E004F2C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF73EC1C947B1E004F2C4F /* ViewController.swift */; };
+		EDCF73F01C947B1E004F2C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF73EE1C947B1E004F2C4F /* Main.storyboard */; };
+		EDCF73F31C947B1E004F2C4F /* sumimasen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDCF73F11C947B1E004F2C4F /* sumimasen.xcdatamodeld */; };
+		EDCF73F51C947B1E004F2C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCF73F41C947B1E004F2C4F /* Assets.xcassets */; };
+		EDCF73F81C947B1E004F2C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF73F61C947B1E004F2C4F /* LaunchScreen.storyboard */; };
+		EDCF74031C947B1E004F2C4F /* sumimasenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF74021C947B1E004F2C4F /* sumimasenTests.swift */; };
+		EDCF740E1C947B1E004F2C4F /* sumimasenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF740D1C947B1E004F2C4F /* sumimasenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDCF73FF1C947B1E004F2C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCF73DF1C947B1E004F2C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCF73E61C947B1E004F2C4F;
+			remoteInfo = sumimasen;
+		};
+		EDCF740A1C947B1E004F2C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCF73DF1C947B1E004F2C4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCF73E61C947B1E004F2C4F;
+			remoteInfo = sumimasen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDCF73E71C947B1E004F2C4F /* sumimasen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sumimasen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCF73EA1C947B1E004F2C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDCF73EC1C947B1E004F2C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDCF73EF1C947B1E004F2C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDCF73F21C947B1E004F2C4F /* sumimasen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sumimasen.xcdatamodel; sourceTree = "<group>"; };
+		EDCF73F41C947B1E004F2C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDCF73F71C947B1E004F2C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDCF73F91C947B1E004F2C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCF73FE1C947B1E004F2C4F /* sumimasenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumimasenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCF74021C947B1E004F2C4F /* sumimasenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumimasenTests.swift; sourceTree = "<group>"; };
+		EDCF74041C947B1E004F2C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCF74091C947B1E004F2C4F /* sumimasenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumimasenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCF740D1C947B1E004F2C4F /* sumimasenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumimasenUITests.swift; sourceTree = "<group>"; };
+		EDCF740F1C947B1E004F2C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCF73E41C947B1E004F2C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCF73FB1C947B1E004F2C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCF74061C947B1E004F2C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCF73DE1C947B1E004F2C4F = {
+			isa = PBXGroup;
+			children = (
+				EDCF73E91C947B1E004F2C4F /* sumimasen */,
+				EDCF74011C947B1E004F2C4F /* sumimasenTests */,
+				EDCF740C1C947B1E004F2C4F /* sumimasenUITests */,
+				EDCF73E81C947B1E004F2C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCF73E81C947B1E004F2C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF73E71C947B1E004F2C4F /* sumimasen.app */,
+				EDCF73FE1C947B1E004F2C4F /* sumimasenTests.xctest */,
+				EDCF74091C947B1E004F2C4F /* sumimasenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCF73E91C947B1E004F2C4F /* sumimasen */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF73EA1C947B1E004F2C4F /* AppDelegate.swift */,
+				EDCF73EC1C947B1E004F2C4F /* ViewController.swift */,
+				EDCF73EE1C947B1E004F2C4F /* Main.storyboard */,
+				EDCF73F41C947B1E004F2C4F /* Assets.xcassets */,
+				EDCF73F61C947B1E004F2C4F /* LaunchScreen.storyboard */,
+				EDCF73F91C947B1E004F2C4F /* Info.plist */,
+				EDCF73F11C947B1E004F2C4F /* sumimasen.xcdatamodeld */,
+			);
+			path = sumimasen;
+			sourceTree = "<group>";
+		};
+		EDCF74011C947B1E004F2C4F /* sumimasenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF74021C947B1E004F2C4F /* sumimasenTests.swift */,
+				EDCF74041C947B1E004F2C4F /* Info.plist */,
+			);
+			path = sumimasenTests;
+			sourceTree = "<group>";
+		};
+		EDCF740C1C947B1E004F2C4F /* sumimasenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF740D1C947B1E004F2C4F /* sumimasenUITests.swift */,
+				EDCF740F1C947B1E004F2C4F /* Info.plist */,
+			);
+			path = sumimasenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCF73E61C947B1E004F2C4F /* sumimasen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCF74121C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasen" */;
+			buildPhases = (
+				EDCF73E31C947B1E004F2C4F /* Sources */,
+				EDCF73E41C947B1E004F2C4F /* Frameworks */,
+				EDCF73E51C947B1E004F2C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sumimasen;
+			productName = sumimasen;
+			productReference = EDCF73E71C947B1E004F2C4F /* sumimasen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDCF73FD1C947B1E004F2C4F /* sumimasenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCF74151C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasenTests" */;
+			buildPhases = (
+				EDCF73FA1C947B1E004F2C4F /* Sources */,
+				EDCF73FB1C947B1E004F2C4F /* Frameworks */,
+				EDCF73FC1C947B1E004F2C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCF74001C947B1E004F2C4F /* PBXTargetDependency */,
+			);
+			name = sumimasenTests;
+			productName = sumimasenTests;
+			productReference = EDCF73FE1C947B1E004F2C4F /* sumimasenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDCF74081C947B1E004F2C4F /* sumimasenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCF74181C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasenUITests" */;
+			buildPhases = (
+				EDCF74051C947B1E004F2C4F /* Sources */,
+				EDCF74061C947B1E004F2C4F /* Frameworks */,
+				EDCF74071C947B1E004F2C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCF740B1C947B1E004F2C4F /* PBXTargetDependency */,
+			);
+			name = sumimasenUITests;
+			productName = sumimasenUITests;
+			productReference = EDCF74091C947B1E004F2C4F /* sumimasenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCF73DF1C947B1E004F2C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "HIroki Taniguti";
+				TargetAttributes = {
+					EDCF73E61C947B1E004F2C4F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = LZVK55AH8Y;
+					};
+					EDCF73FD1C947B1E004F2C4F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = LZVK55AH8Y;
+						TestTargetID = EDCF73E61C947B1E004F2C4F;
+					};
+					EDCF74081C947B1E004F2C4F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = LZVK55AH8Y;
+						TestTargetID = EDCF73E61C947B1E004F2C4F;
+					};
+				};
+			};
+			buildConfigurationList = EDCF73E21C947B1E004F2C4F /* Build configuration list for PBXProject "sumimasen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCF73DE1C947B1E004F2C4F;
+			productRefGroup = EDCF73E81C947B1E004F2C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCF73E61C947B1E004F2C4F /* sumimasen */,
+				EDCF73FD1C947B1E004F2C4F /* sumimasenTests */,
+				EDCF74081C947B1E004F2C4F /* sumimasenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCF73E51C947B1E004F2C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCF73F81C947B1E004F2C4F /* LaunchScreen.storyboard in Resources */,
+				EDCF73F51C947B1E004F2C4F /* Assets.xcassets in Resources */,
+				EDCF73F01C947B1E004F2C4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCF73FC1C947B1E004F2C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCF74071C947B1E004F2C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCF73E31C947B1E004F2C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCF73F31C947B1E004F2C4F /* sumimasen.xcdatamodeld in Sources */,
+				EDCF73ED1C947B1E004F2C4F /* ViewController.swift in Sources */,
+				EDCF73EB1C947B1E004F2C4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCF73FA1C947B1E004F2C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCF74031C947B1E004F2C4F /* sumimasenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCF74051C947B1E004F2C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCF740E1C947B1E004F2C4F /* sumimasenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDCF74001C947B1E004F2C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCF73E61C947B1E004F2C4F /* sumimasen */;
+			targetProxy = EDCF73FF1C947B1E004F2C4F /* PBXContainerItemProxy */;
+		};
+		EDCF740B1C947B1E004F2C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCF73E61C947B1E004F2C4F /* sumimasen */;
+			targetProxy = EDCF740A1C947B1E004F2C4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDCF73EE1C947B1E004F2C4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCF73EF1C947B1E004F2C4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDCF73F61C947B1E004F2C4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCF73F71C947B1E004F2C4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCF74101C947B1E004F2C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDCF74111C947B1E004F2C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCF74131C947B1E004F2C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sumimasen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDCF74141C947B1E004F2C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sumimasen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDCF74161C947B1E004F2C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sumimasenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sumimasen.app/sumimasen";
+			};
+			name = Debug;
+		};
+		EDCF74171C947B1E004F2C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sumimasenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sumimasen.app/sumimasen";
+			};
+			name = Release;
+		};
+		EDCF74191C947B1E004F2C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sumimasenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sumimasen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDCF741A1C947B1E004F2C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sumimasenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sumimasen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCF73E21C947B1E004F2C4F /* Build configuration list for PBXProject "sumimasen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF74101C947B1E004F2C4F /* Debug */,
+				EDCF74111C947B1E004F2C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCF74121C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF74131C947B1E004F2C4F /* Debug */,
+				EDCF74141C947B1E004F2C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDCF74151C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF74161C947B1E004F2C4F /* Debug */,
+				EDCF74171C947B1E004F2C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDCF74181C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCF74191C947B1E004F2C4F /* Debug */,
+				EDCF741A1C947B1E004F2C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDCF73F11C947B1E004F2C4F /* sumimasen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDCF73F21C947B1E004F2C4F /* sumimasen.xcdatamodel */,
+			);
+			currentVersion = EDCF73F21C947B1E004F2C4F /* sumimasen.xcdatamodel */;
+			path = sumimasen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDCF73DF1C947B1E004F2C4F /* Project object */;
+}
