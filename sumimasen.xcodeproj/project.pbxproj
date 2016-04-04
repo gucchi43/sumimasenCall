@@ -15,6 +15,7 @@
 		EDCF73F81C947B1E004F2C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF73F61C947B1E004F2C4F /* LaunchScreen.storyboard */; };
 		EDCF74031C947B1E004F2C4F /* sumimasenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF74021C947B1E004F2C4F /* sumimasenTests.swift */; };
 		EDCF740E1C947B1E004F2C4F /* sumimasenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF740D1C947B1E004F2C4F /* sumimasenUITests.swift */; };
+		EDCF741C1C947F16004F2C4F /* n109.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDCF741B1C947F16004F2C4F /* n109.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EDCF74091C947B1E004F2C4F /* sumimasenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumimasenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCF740D1C947B1E004F2C4F /* sumimasenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumimasenUITests.swift; sourceTree = "<group>"; };
 		EDCF740F1C947B1E004F2C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCF741B1C947F16004F2C4F /* n109.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = n109.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				EDCF73EA1C947B1E004F2C4F /* AppDelegate.swift */,
 				EDCF73EC1C947B1E004F2C4F /* ViewController.swift */,
 				EDCF73EE1C947B1E004F2C4F /* Main.storyboard */,
+				EDCF741B1C947F16004F2C4F /* n109.mp3 */,
 				EDCF73F41C947B1E004F2C4F /* Assets.xcassets */,
 				EDCF73F61C947B1E004F2C4F /* LaunchScreen.storyboard */,
 				EDCF73F91C947B1E004F2C4F /* Info.plist */,
@@ -237,6 +240,7 @@
 			files = (
 				EDCF73F81C947B1E004F2C4F /* LaunchScreen.storyboard in Resources */,
 				EDCF73F51C947B1E004F2C4F /* Assets.xcassets in Resources */,
+				EDCF741C1C947F16004F2C4F /* n109.mp3 in Resources */,
 				EDCF73F01C947B1E004F2C4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
