@@ -17,15 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbg-lt-rXM">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tbg-lt-rXM">
+                                <rect key="frame" x="220" y="220" width="160" height="122"/>
+                                <state key="normal" image="callBtn.png">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
                                 <connections>
                                     <action selector="sumimasen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N5S-pE-0kY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tbg-lt-rXM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="200" id="4xq-yQ-pSV"/>
+                            <constraint firstItem="tbg-lt-rXM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bk3-oq-QAp"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="tbg-lt-rXM" id="zEe-HI-2br"/>
@@ -35,4 +41,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="callBtn.png" width="160" height="122"/>
+    </resources>
 </document>

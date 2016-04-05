@@ -19,7 +19,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         
         // 再生する audio ファイルのパスを取得
-        let audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("n109", ofType: "mp3")!)
+        let audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("audio_23001", ofType: "wav")!)
         
         // auido を再生するプレイヤーを作成する
         var audioError: NSError?
@@ -44,14 +44,15 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     @IBAction func sumimasen(sender: AnyObject) {
         print("ボタン押した")
-        if ( audioPlayer.playing ){
-            audioPlayer.stop()
-            button.setTitle("Stop", forState: UIControlState.Normal)
+        if (audioPlayer.playing ){
+//            audioPlayer.stop()
+            audioPlayer.currentTime = NSTimeInterval(0)
+//            button.setTitle("おわりじゃないもん", forState: UIControlState.Normal)
             print("Stop押した")
         }
         else{
             audioPlayer.play()
-            button.setTitle("Play", forState: UIControlState.Normal)
+//            button.setTitle("おわりじゃないもん", forState: UIControlState.Normal)
             print("Play押した")
         }
     }
