@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD07E910A57354DB13DCC3F /* Pods_sumimasenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52A42A30970A2D782E3B8FE /* Pods_sumimasenUITests.framework */; };
+		5DF0DD9173004CBC2D3A1182 /* Pods_sumimasenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3A301D019326F5B84F042C /* Pods_sumimasenTests.framework */; };
+		80BF2B98F110A1E20C15FA2F /* Pods_sumimasen_sumimasenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289F9551F352D7E235970385 /* Pods_sumimasen_sumimasenTests.framework */; };
+		81ED14A728BA2416E57602AC /* Pods_sumimasen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5FEFFF5EBF16F59495B4A4 /* Pods_sumimasen.framework */; };
+		C2D7872C57895CC6F8A67E39 /* Pods_sumimasen_sumimasenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509B2313195B2D7CE2128E4B /* Pods_sumimasen_sumimasenUITests.framework */; };
 		ED47056C1CB2D8B1006ABD54 /* audio_23001.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED47056B1CB2D8B1006ABD54 /* audio_23001.wav */; };
 		ED4705701CB2E500006ABD54 /* callBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = ED47056F1CB2E500006ABD54 /* callBtn.png */; };
 		ED4705721CB2E82B006ABD54 /* mokume.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED4705711CB2E82B006ABD54 /* mokume.jpg */; };
@@ -39,6 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14886820E654DCD1DF4E1667 /* Pods-sumimasen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasen/Pods-sumimasen.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC0AC0C48CDB2CF915D4153 /* Pods-sumimasenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasenTests/Pods-sumimasenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		289F9551F352D7E235970385 /* Pods_sumimasen_sumimasenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumimasen_sumimasenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC74BF736DBA093F7C415EF /* Pods-sumimasen-sumimasenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasen-sumimasenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasen-sumimasenTests/Pods-sumimasen-sumimasenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		509B2313195B2D7CE2128E4B /* Pods_sumimasen_sumimasenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumimasen_sumimasenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3A301D019326F5B84F042C /* Pods_sumimasenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumimasenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED958CDD260C24426BC4972 /* Pods-sumimasenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasenTests/Pods-sumimasenTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A8A3538DBFB0C05D6512936 /* Pods-sumimasen-sumimasenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasen-sumimasenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasen-sumimasenUITests/Pods-sumimasen-sumimasenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7094BDB6FE78A59A9824C575 /* Pods-sumimasen-sumimasenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasen-sumimasenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasen-sumimasenTests/Pods-sumimasen-sumimasenTests.release.xcconfig"; sourceTree = "<group>"; };
+		76045D1913CD34BC94606D41 /* Pods-sumimasenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasenUITests/Pods-sumimasenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7769AF340DE3DAD3D170FFEA /* Pods-sumimasen-sumimasenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasen-sumimasenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasen-sumimasenUITests/Pods-sumimasen-sumimasenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4A13AD5A720102BA6932ED2 /* Pods-sumimasen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasen.release.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasen/Pods-sumimasen.release.xcconfig"; sourceTree = "<group>"; };
+		D52A42A30970A2D782E3B8FE /* Pods_sumimasenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumimasenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5FEFFF5EBF16F59495B4A4 /* Pods_sumimasen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumimasen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED47056B1CB2D8B1006ABD54 /* audio_23001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_23001.wav; sourceTree = "<group>"; };
 		ED47056F1CB2E500006ABD54 /* callBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callBtn.png; sourceTree = "<group>"; };
 		ED4705711CB2E82B006ABD54 /* mokume.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mokume.jpg; sourceTree = "<group>"; };
@@ -57,6 +76,7 @@
 		EDCF740D1C947B1E004F2C4F /* sumimasenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumimasenUITests.swift; sourceTree = "<group>"; };
 		EDCF740F1C947B1E004F2C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCF741B1C947F16004F2C4F /* n109.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = n109.mp3; sourceTree = "<group>"; };
+		F2B1CF05CBAF09ABF2DC6B5C /* Pods-sumimasenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasenUITests/Pods-sumimasenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81ED14A728BA2416E57602AC /* Pods_sumimasen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF0DD9173004CBC2D3A1182 /* Pods_sumimasenTests.framework in Frameworks */,
+				80BF2B98F110A1E20C15FA2F /* Pods_sumimasen_sumimasenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +101,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD07E910A57354DB13DCC3F /* Pods_sumimasenUITests.framework in Frameworks */,
+				C2D7872C57895CC6F8A67E39 /* Pods_sumimasen_sumimasenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		067CF356080546EF4F76A87E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5FEFFF5EBF16F59495B4A4 /* Pods_sumimasen.framework */,
+				5B3A301D019326F5B84F042C /* Pods_sumimasenTests.framework */,
+				D52A42A30970A2D782E3B8FE /* Pods_sumimasenUITests.framework */,
+				289F9551F352D7E235970385 /* Pods_sumimasen_sumimasenTests.framework */,
+				509B2313195B2D7CE2128E4B /* Pods_sumimasen_sumimasenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		389736DF4790A2230E4C4D2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14886820E654DCD1DF4E1667 /* Pods-sumimasen.debug.xcconfig */,
+				A4A13AD5A720102BA6932ED2 /* Pods-sumimasen.release.xcconfig */,
+				1CC0AC0C48CDB2CF915D4153 /* Pods-sumimasenTests.debug.xcconfig */,
+				5ED958CDD260C24426BC4972 /* Pods-sumimasenTests.release.xcconfig */,
+				F2B1CF05CBAF09ABF2DC6B5C /* Pods-sumimasenUITests.debug.xcconfig */,
+				76045D1913CD34BC94606D41 /* Pods-sumimasenUITests.release.xcconfig */,
+				2EC74BF736DBA093F7C415EF /* Pods-sumimasen-sumimasenTests.debug.xcconfig */,
+				7094BDB6FE78A59A9824C575 /* Pods-sumimasen-sumimasenTests.release.xcconfig */,
+				6A8A3538DBFB0C05D6512936 /* Pods-sumimasen-sumimasenUITests.debug.xcconfig */,
+				7769AF340DE3DAD3D170FFEA /* Pods-sumimasen-sumimasenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDCF73DE1C947B1E004F2C4F = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +146,8 @@
 				EDCF74011C947B1E004F2C4F /* sumimasenTests */,
 				EDCF740C1C947B1E004F2C4F /* sumimasenUITests */,
 				EDCF73E81C947B1E004F2C4F /* Products */,
+				389736DF4790A2230E4C4D2A /* Pods */,
+				067CF356080546EF4F76A87E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCF74121C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasen" */;
 			buildPhases = (
+				E4E0A24ACF1575BD774B8D70 /* [CP] Check Pods Manifest.lock */,
 				EDCF73E31C947B1E004F2C4F /* Sources */,
 				EDCF73E41C947B1E004F2C4F /* Frameworks */,
 				EDCF73E51C947B1E004F2C4F /* Resources */,
+				8BD3606590C97D098F09038A /* [CP] Embed Pods Frameworks */,
+				C5D50AD6F313724DE40F6E65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCF74151C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasenTests" */;
 			buildPhases = (
+				B083EEC37E5B2D423404CDC3 /* [CP] Check Pods Manifest.lock */,
 				EDCF73FA1C947B1E004F2C4F /* Sources */,
 				EDCF73FB1C947B1E004F2C4F /* Frameworks */,
 				EDCF73FC1C947B1E004F2C4F /* Resources */,
+				B209E12798D01A33D696A6BD /* [CP] Embed Pods Frameworks */,
+				9798319A9D415C1FE766EE69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCF74181C947B1E004F2C4F /* Build configuration list for PBXNativeTarget "sumimasenUITests" */;
 			buildPhases = (
+				E18BD506998C253AC27D4DAA /* [CP] Check Pods Manifest.lock */,
 				EDCF74051C947B1E004F2C4F /* Sources */,
 				EDCF74061C947B1E004F2C4F /* Frameworks */,
 				EDCF74071C947B1E004F2C4F /* Resources */,
+				2993585F0CBA2D699BDD6D93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +336,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2993585F0CBA2D699BDD6D93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumimasen-sumimasenUITests/Pods-sumimasen-sumimasenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD3606590C97D098F09038A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumimasen/Pods-sumimasen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9798319A9D415C1FE766EE69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumimasen-sumimasenTests/Pods-sumimasen-sumimasenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B083EEC37E5B2D423404CDC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B209E12798D01A33D696A6BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumimasen-sumimasenTests/Pods-sumimasen-sumimasenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D50AD6F313724DE40F6E65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumimasen/Pods-sumimasen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18BD506998C253AC27D4DAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E0A24ACF1575BD774B8D70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDCF73E31C947B1E004F2C4F /* Sources */ = {
@@ -418,28 +605,37 @@
 		};
 		EDCF74131C947B1E004F2C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14886820E654DCD1DF4E1667 /* Pods-sumimasen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sumimasen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		EDCF74141C947B1E004F2C4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A13AD5A720102BA6932ED2 /* Pods-sumimasen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sumimasen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		EDCF74161C947B1E004F2C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC74BF736DBA093F7C415EF /* Pods-sumimasen-sumimasenTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = sumimasenTests/Info.plist;
@@ -452,6 +648,7 @@
 		};
 		EDCF74171C947B1E004F2C4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7094BDB6FE78A59A9824C575 /* Pods-sumimasen-sumimasenTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = sumimasenTests/Info.plist;
@@ -464,6 +661,7 @@
 		};
 		EDCF74191C947B1E004F2C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8A3538DBFB0C05D6512936 /* Pods-sumimasen-sumimasenUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = sumimasenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -476,6 +674,7 @@
 		};
 		EDCF741A1C947B1E004F2C4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7769AF340DE3DAD3D170FFEA /* Pods-sumimasen-sumimasenUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = sumimasenUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
