@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b3b-dk-4lU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aFd-Zc-3hh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="367"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oia-AF-eDg">
+                                        <rect key="frame" x="187" y="183" width="1" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="HN9-Go-MgP"/>
+                                            <constraint firstAttribute="width" constant="1" id="rY7-Qa-ttz"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4U-wI-6Zs">
+                                        <rect key="frame" x="87" y="84" width="200" height="200"/>
+                                        <color key="backgroundColor" red="0.48627450979999998" green="0.73725490199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="ZUF-na-2LP"/>
+                                            <constraint firstAttribute="height" constant="200" id="fL3-Fq-8ze"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Suimase-----n">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.88235294117647056" green="0.11372549019607843" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="28" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Oia-AF-eDg" firstAttribute="centerX" secondItem="aFd-Zc-3hh" secondAttribute="centerX" id="Jws-VX-Mou"/>
+                                    <constraint firstItem="R4U-wI-6Zs" firstAttribute="centerX" secondItem="aFd-Zc-3hh" secondAttribute="centerX" id="YZu-ma-tWr"/>
+                                    <constraint firstItem="Oia-AF-eDg" firstAttribute="centerY" secondItem="aFd-Zc-3hh" secondAttribute="centerY" id="fka-nY-8uM"/>
+                                    <constraint firstItem="R4U-wI-6Zs" firstAttribute="centerY" secondItem="aFd-Zc-3hh" secondAttribute="centerY" id="wpd-kU-aPW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49019607840000001" green="0.74117647060000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="aFd-Zc-3hh" secondAttribute="bottom" constant="300" id="8N2-oa-y3V"/>
+                            <constraint firstItem="aFd-Zc-3hh" firstAttribute="leading" secondItem="b3b-dk-4lU" secondAttribute="leading" id="fr1-nX-56o"/>
+                            <constraint firstItem="aFd-Zc-3hh" firstAttribute="top" secondItem="b3b-dk-4lU" secondAttribute="top" id="nDI-XJ-L20"/>
+                            <constraint firstAttribute="trailing" secondItem="aFd-Zc-3hh" secondAttribute="trailing" id="nQf-eg-2X4"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>

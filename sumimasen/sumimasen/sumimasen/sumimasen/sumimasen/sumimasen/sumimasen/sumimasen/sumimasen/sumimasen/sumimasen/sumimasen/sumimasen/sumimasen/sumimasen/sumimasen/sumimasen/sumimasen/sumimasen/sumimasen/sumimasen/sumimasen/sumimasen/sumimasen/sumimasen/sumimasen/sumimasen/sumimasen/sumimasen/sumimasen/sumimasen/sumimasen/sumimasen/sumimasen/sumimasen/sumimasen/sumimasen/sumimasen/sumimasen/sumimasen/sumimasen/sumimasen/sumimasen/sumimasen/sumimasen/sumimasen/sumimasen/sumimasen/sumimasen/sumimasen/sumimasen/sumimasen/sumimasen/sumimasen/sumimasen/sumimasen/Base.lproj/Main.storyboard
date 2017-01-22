@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sumimasen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PS0-hS-5Ul">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="367"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EzP-Jv-yxG">
+                                        <rect key="frame" x="187" y="183" width="1" height="1"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="1d7-5H-C90"/>
+                                            <constraint firstAttribute="width" constant="1" id="DLM-92-lbE"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tbg-lt-rXM">
+                                        <rect key="frame" x="87" y="84" width="200" height="200"/>
+                                        <color key="backgroundColor" red="0.48627450980392156" green="0.73725490196078436" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="Lea-gg-i7A"/>
+                                            <constraint firstAttribute="width" constant="200" id="to6-fD-ENZ"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Suimase-----n">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.88235294117647056" green="0.11372549019607843" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="28" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="sumimasen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N5S-pE-0kY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tbg-lt-rXM" firstAttribute="centerX" secondItem="PS0-hS-5Ul" secondAttribute="centerX" id="8iX-Zn-C2Y"/>
+                                    <constraint firstItem="EzP-Jv-yxG" firstAttribute="centerY" secondItem="PS0-hS-5Ul" secondAttribute="centerY" id="Bhe-ab-nuO"/>
+                                    <constraint firstItem="tbg-lt-rXM" firstAttribute="centerY" secondItem="PS0-hS-5Ul" secondAttribute="centerY" id="GE4-jK-8t8"/>
+                                    <constraint firstItem="EzP-Jv-yxG" firstAttribute="centerX" secondItem="PS0-hS-5Ul" secondAttribute="centerX" id="h4O-IJ-mpn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49411764705882355" green="0.26666666666666666" blue="0.58039215686274515" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PS0-hS-5Ul" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="EVt-f5-UaW"/>
+                            <constraint firstItem="PS0-hS-5Ul" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FjM-xd-tfc"/>
+                            <constraint firstAttribute="trailing" secondItem="PS0-hS-5Ul" secondAttribute="trailing" id="S30-TO-b5g"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PS0-hS-5Ul" secondAttribute="bottom" constant="300" id="Wft-35-ay4"/>
+                            <constraint firstItem="PS0-hS-5Ul" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jQd-UZ-LOw"/>
+                            <constraint firstItem="PS0-hS-5Ul" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="y1L-HS-pbp"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button" destination="tbg-lt-rXM" id="zEe-HI-2br"/>
+                        <outlet property="pulstorView" destination="EzP-Jv-yxG" id="1aN-jl-yCG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="324"/>
+        </scene>
+    </scenes>
+</document>

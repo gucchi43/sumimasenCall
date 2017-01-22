@@ -12,9 +12,16 @@
 		80BF2B98F110A1E20C15FA2F /* Pods_sumimasen_sumimasenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289F9551F352D7E235970385 /* Pods_sumimasen_sumimasenTests.framework */; };
 		81ED14A728BA2416E57602AC /* Pods_sumimasen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5FEFFF5EBF16F59495B4A4 /* Pods_sumimasen.framework */; };
 		C2D7872C57895CC6F8A67E39 /* Pods_sumimasen_sumimasenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509B2313195B2D7CE2128E4B /* Pods_sumimasen_sumimasenUITests.framework */; };
+		ED0F1F371D6426CC00461D8B /* ColorsManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F1F361D6426CC00461D8B /* ColorsManger.swift */; };
+		ED2771101D662BC9004B2427 /* HA.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED27710F1D662BC9004B2427 /* HA.m4a */; };
+		ED2771121D662BDB004B2427 /* HN.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED2771111D662BDB004B2427 /* HN.m4a */; };
+		ED2771151D662C09004B2427 /* NA.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED2771131D662C09004B2427 /* NA.m4a */; };
+		ED2771161D662C09004B2427 /* NN.m4a in Resources */ = {isa = PBXBuildFile; fileRef = ED2771141D662C09004B2427 /* NN.m4a */; };
 		ED47056C1CB2D8B1006ABD54 /* audio_23001.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED47056B1CB2D8B1006ABD54 /* audio_23001.wav */; };
 		ED4705701CB2E500006ABD54 /* callBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = ED47056F1CB2E500006ABD54 /* callBtn.png */; };
 		ED4705721CB2E82B006ABD54 /* mokume.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED4705711CB2E82B006ABD54 /* mokume.jpg */; };
+		ED71150C1DAF4749001A6C9E /* GA.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED71150A1DAF4749001A6C9E /* GA.wav */; };
+		ED71150D1DAF4749001A6C9E /* GN.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED71150B1DAF4749001A6C9E /* GN.wav */; };
 		EDCF73EB1C947B1E004F2C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF73EA1C947B1E004F2C4F /* AppDelegate.swift */; };
 		EDCF73ED1C947B1E004F2C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCF73EC1C947B1E004F2C4F /* ViewController.swift */; };
 		EDCF73F01C947B1E004F2C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCF73EE1C947B1E004F2C4F /* Main.storyboard */; };
@@ -58,9 +65,16 @@
 		A4A13AD5A720102BA6932ED2 /* Pods-sumimasen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumimasen.release.xcconfig"; path = "Pods/Target Support Files/Pods-sumimasen/Pods-sumimasen.release.xcconfig"; sourceTree = "<group>"; };
 		D52A42A30970A2D782E3B8FE /* Pods_sumimasenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumimasenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5FEFFF5EBF16F59495B4A4 /* Pods_sumimasen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumimasen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0F1F361D6426CC00461D8B /* ColorsManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsManger.swift; sourceTree = "<group>"; };
+		ED27710F1D662BC9004B2427 /* HA.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = HA.m4a; sourceTree = "<group>"; };
+		ED2771111D662BDB004B2427 /* HN.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = HN.m4a; sourceTree = "<group>"; };
+		ED2771131D662C09004B2427 /* NA.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = NA.m4a; sourceTree = "<group>"; };
+		ED2771141D662C09004B2427 /* NN.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = NN.m4a; sourceTree = "<group>"; };
 		ED47056B1CB2D8B1006ABD54 /* audio_23001.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = audio_23001.wav; sourceTree = "<group>"; };
 		ED47056F1CB2E500006ABD54 /* callBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callBtn.png; sourceTree = "<group>"; };
 		ED4705711CB2E82B006ABD54 /* mokume.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mokume.jpg; sourceTree = "<group>"; };
+		ED71150A1DAF4749001A6C9E /* GA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GA.wav; sourceTree = "<group>"; };
+		ED71150B1DAF4749001A6C9E /* GN.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GN.wav; sourceTree = "<group>"; };
 		EDCF73E71C947B1E004F2C4F /* sumimasen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sumimasen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCF73EA1C947B1E004F2C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCF73EC1C947B1E004F2C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,11 +179,18 @@
 			isa = PBXGroup;
 			children = (
 				EDCF73EA1C947B1E004F2C4F /* AppDelegate.swift */,
+				ED0F1F361D6426CC00461D8B /* ColorsManger.swift */,
 				EDCF73EC1C947B1E004F2C4F /* ViewController.swift */,
 				ED4705711CB2E82B006ABD54 /* mokume.jpg */,
 				EDCF73EE1C947B1E004F2C4F /* Main.storyboard */,
+				ED71150A1DAF4749001A6C9E /* GA.wav */,
+				ED71150B1DAF4749001A6C9E /* GN.wav */,
 				EDCF741B1C947F16004F2C4F /* n109.mp3 */,
 				ED47056B1CB2D8B1006ABD54 /* audio_23001.wav */,
+				ED2771131D662C09004B2427 /* NA.m4a */,
+				ED2771141D662C09004B2427 /* NN.m4a */,
+				ED27710F1D662BC9004B2427 /* HA.m4a */,
+				ED2771111D662BDB004B2427 /* HN.m4a */,
 				EDCF73F41C947B1E004F2C4F /* Assets.xcassets */,
 				EDCF73F61C947B1E004F2C4F /* LaunchScreen.storyboard */,
 				EDCF73F91C947B1E004F2C4F /* Info.plist */,
@@ -249,6 +270,7 @@
 				EDCF74061C947B1E004F2C4F /* Frameworks */,
 				EDCF74071C947B1E004F2C4F /* Resources */,
 				2993585F0CBA2D699BDD6D93 /* [CP] Copy Pods Resources */,
+				7FF163E5FFCCF2784FCE49A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,15 +295,18 @@
 					EDCF73E61C947B1E004F2C4F = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = LZVK55AH8Y;
+						LastSwiftMigration = 0820;
 					};
 					EDCF73FD1C947B1E004F2C4F = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = LZVK55AH8Y;
+						LastSwiftMigration = 0820;
 						TestTargetID = EDCF73E61C947B1E004F2C4F;
 					};
 					EDCF74081C947B1E004F2C4F = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = LZVK55AH8Y;
+						LastSwiftMigration = 0820;
 						TestTargetID = EDCF73E61C947B1E004F2C4F;
 					};
 				};
@@ -311,13 +336,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED71150D1DAF4749001A6C9E /* GN.wav in Resources */,
+				ED2771121D662BDB004B2427 /* HN.m4a in Resources */,
 				EDCF73F81C947B1E004F2C4F /* LaunchScreen.storyboard in Resources */,
+				ED71150C1DAF4749001A6C9E /* GA.wav in Resources */,
 				EDCF73F51C947B1E004F2C4F /* Assets.xcassets in Resources */,
 				ED4705721CB2E82B006ABD54 /* mokume.jpg in Resources */,
 				ED4705701CB2E500006ABD54 /* callBtn.png in Resources */,
+				ED2771161D662C09004B2427 /* NN.m4a in Resources */,
+				ED2771151D662C09004B2427 /* NA.m4a in Resources */,
 				EDCF741C1C947F16004F2C4F /* n109.mp3 in Resources */,
 				EDCF73F01C947B1E004F2C4F /* Main.storyboard in Resources */,
 				ED47056C1CB2D8B1006ABD54 /* audio_23001.wav in Resources */,
+				ED2771101D662BC9004B2427 /* HA.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +382,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumimasen-sumimasenUITests/Pods-sumimasen-sumimasenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF163E5FFCCF2784FCE49A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumimasen-sumimasenUITests/Pods-sumimasen-sumimasenUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8BD3606590C97D098F09038A /* [CP] Embed Pods Frameworks */ = {
@@ -395,7 +441,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B209E12798D01A33D696A6BD /* [CP] Embed Pods Frameworks */ = {
@@ -440,7 +486,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E4E0A24ACF1575BD774B8D70 /* [CP] Check Pods Manifest.lock */ = {
@@ -455,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -466,6 +512,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDCF73F31C947B1E004F2C4F /* sumimasen.xcdatamodeld in Sources */,
+				ED0F1F371D6426CC00461D8B /* ColorsManger.swift in Sources */,
 				EDCF73ED1C947B1E004F2C4F /* ViewController.swift in Sources */,
 				EDCF73EB1C947B1E004F2C4F /* AppDelegate.swift in Sources */,
 			);
@@ -615,6 +662,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -630,6 +678,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -642,6 +691,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sumimasen.app/sumimasen";
 			};
 			name = Debug;
@@ -655,6 +705,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sumimasen.app/sumimasen";
 			};
 			name = Release;
@@ -667,6 +718,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = sumimasen;
 				USES_XCTRUNNER = YES;
 			};
@@ -680,6 +732,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.sumimasenUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = sumimasen;
 				USES_XCTRUNNER = YES;
 			};
